@@ -1,0 +1,23 @@
+{
+  "name": "bburo",
+  "version": "0.1.0",
+  "description": "An bureaulogy game for the 2023 Make Something Horrible game jam",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UtherII/bburo.git"
+  },
+  "author": "Uther II",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UtherII/bburo/issues"
+  },
+  "homepage": "https://github.com/UtherII/bburo#readme",
+  "devDependencies": {
+    "electron": "^26.2.4"
+  }
+}
