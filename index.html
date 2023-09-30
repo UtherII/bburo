@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Brigade Bureaulogique : Unité de Répression et d'Ordre</title>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
-</head>
-<body>
-    <h1>Todo</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Brigade Bureaulogique : Unité de Répression et d'Ordre</title>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+        <link rel="stylesheet" href="style/main.css">
+    </head>
+    <body>
+        <script src="js/game.js"></script>
+        <img id="main" src="img/bburo.png">
+        <div id="panel">
+            <p>
+                <label for="lvl-selector">Level: </label> 
+                <input id="lvl-selector" type="number" style="width: 4em;" onchange="changeLevel">
+                <button onclick="addLevel">+</button>
+                <button onclick="deleteLevel">🗑️</button>
+            </p>
+            <p>
+                <label for="level-img">Image: </label>
+                <input id="lvl-img" type="file">
+            </p>
+            <p>
+                <label>Zones: </label>
+                <button onclick="addZone">+</button>
+                <div id="zone-list">
+
+                </div>
+            </p>
+        </div>
+    </body>
 </html>
